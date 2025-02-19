@@ -1,0 +1,177 @@
+html {
+    background-color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav {
+    width: 100%;
+    text-align: center ; 
+    background-color: #0057B8;
+    padding: 5px ;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    }
+
+ul li { 
+    display: inline;
+    color: white;
+ margin: 10px ;
+  text-decoration: none
+    }
+    nav li:hover {
+        background-color: #111;
+         padding: 20px;
+      }
+
+#introduction {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap:wrap;
+    flex-basis: 100px;
+height: 300px;
+padding-bottom: 250px;
+margin-bottom: 15px;
+background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWxpbWxxeGhlZW02dGY4NXhobmVpMnJqNTNpZTYwcTkwamt2MnUybSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y2XUgTRHYg9pQ04I7r/giphy.gif") ;
+background-color: #FFFFFF;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius:5px
+}
+
+.position {
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 300px;
+    margin-right: 1000px;*/
+    padding: 5px;
+    background-color: rgb(255, 255, 255);opacity: 0.8;
+}
+
+#title {
+color:blue ;
+}
+
+.boutton-general { 
+   background-color: rgb(255, 255, 255);opacity: 0.8;
+   padding:10px ;
+    border-radius: 5px;
+
+}
+
+#services {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#services h4 {
+    margin-left: 15px;
+    margin-right: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.card-services{
+    background-color: azure;
+    width: 280px ;
+    height: 500px;
+    margin: 8px;
+    border-radius: 10px;
+}
+.services-image{
+background-color: green;
+height: 150px;
+margin-bottom: 15px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px
+}
+
+
+.service1{
+    background-image: url("https://tc.canada.ca/sites/default/files/2021-06/Container%20trucks.png");
+    background-size: cover;
+}
+
+
+.service2{
+    background-image: url("https://cdn.prod.website-files.com/6193d546dfb64eec20323f4a/6723a4012c176d72c44a13b7_Entreposage%20VS%20Stockage-2.png");
+    background-size: cover;
+}
+
+.service3{
+    background-image: url("https://images.unsplash.com/photo-1521790945508-bf2a36314e85?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+}
+
+.service4{
+    background-image: url("https://mabeauce.com/wp-content/uploads/2021/07/douanes-678x381.jpg");
+    background-size: cover;
+}
+
+.service5{
+    background-image: url("https://www.raja.fr/blog/wp-content/uploads/2022/05/nouvelle-technologie-logistique.jpg");
+    background-size: cover;
+}
+#services p {
+    padding: 10px;
+    text-align: justify;
+}
+#services .boutton-services {
+background-color: greenyellow;
+color: black;
+padding:  15px 20px;
+display: block;
+text-align: center;
+margin: 10px 50px;
+}
+
+.card-services:hover{
+    background-color:  ;
+    color:#0057B8;
+    cursor:pointer;
+    transform: scale(1.08);
+    transition: all 10ms ease-in-out;
+}
+
+
+#formulaire{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 25px;
+    border-radius: 10px;
+
+
+}
+.form-container{
+    background-color: #0057B8;
+    margin: 15px 20px;
+    padding: 20px;
+    max-width: 700px ;
+    border-radius: 5px;
+}
+.form-container header{
+    padding: 2px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.input-container{
+    flex-flow: column;
+}
+
+footer{
+    width: 100%;
+    
+    text-align: center ; 
+    background-color: #0057B8;
+    margin-top: 15px ;
+    padding: 1px;
+}
+#footer-2{
+        color: #FFFFFF;
+        
+    }
+
+
